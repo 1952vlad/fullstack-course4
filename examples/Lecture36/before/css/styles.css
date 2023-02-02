@@ -170,6 +170,11 @@ body {
     padding-top: 10px;
     height: 80px;
   }
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
@@ -207,6 +212,46 @@ body {
   }
   /* End Header */
 
+ /* Footer */
+ 
+ .panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+
+  } 
+
+ 
+
+  #hours, #address {
+    line-height: 2;
+  }
+  
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+
+
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+ .panel-footer section hr {
+    width: 50%;
+  }
+
+  /* End Footer */
+
   /* Home Page */
   .container .jumbotron {
     margin-top: 30px;
@@ -218,7 +263,8 @@ body {
     margin: 0 auto 15px;
   }
 
-}
+
+
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -235,5 +281,5 @@ body {
     width: 280px;
     margin: 0 auto 15px;
   }
-}
 
+}
