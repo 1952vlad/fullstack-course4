@@ -1,5 +1,5 @@
 // Event handling
-document.addEventListener("DOMContentLoaded",
+document.addEventListener( "DOMContentLoaded",
   function (event) {
     
     function sayHello (event) {
@@ -28,6 +28,10 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", sayHello);
 
+       document
+       .getElementById("name")
+       .addEventListener("blur", sayHello);
+      
   }
 );
 
